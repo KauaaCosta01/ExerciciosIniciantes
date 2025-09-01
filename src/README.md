@@ -1,63 +1,42 @@
-# 📝 Exercícios Iniciais em Java
+# 🚀 Exercícios de Java - Nível 3
 
-Este repositório contém atividades práticas desenvolvidas durante meus estudos iniciais em **Java**.  
-O foco foi compreender os **conceitos básicos da linguagem**, como variáveis, condicionais, loops e entrada de dados com `Scanner`.
+Este repositório contém exercícios práticos em **Java** para consolidar conhecimentos de lógica de programação, estruturas condicionais, loops e manipulação de variáveis.
 
----
+## 📂 Exercícios
 
-## 📌 Conteúdos Praticados
+### 1️⃣ Caixa Eletrônico (`CaixaEletronico.java`)
+Simula um sistema bancário simples com as seguintes opções:
+- Ver saldo
+- Depositar valores
+- Sacar valores (com validação de saldo)
+- Encerrar o sistema
 
-### 🔹 Variáveis
-- Declaração e inicialização de variáveis (`int`, `double`, `String`, `boolean`).
-- Operações aritméticas básicas.
-- Exibição de valores no console com `System.out.println`.
+### 2️⃣ Sistema de Média de Notas (`SistemaMediaNota.java`)
+Calcula a média de três notas fornecidas pelo usuário, com validações:
+- Notas inválidas (fora de 0 a 10)
+- Aprovação (média ≥ 7)
+- Recuperação (média entre 5 e 6.9)
+- Reprovação (média < 5)
 
-### 🔹 Estruturas Condicionais
-- Uso do `if`, `else if` e `else` para tomada de decisões.
-- Criação de classificadores simples (idade, notas, etc.).
-- Simulação de login com verificação de usuário e senha.
-
-### 🔹 Estruturas de Repetição
-- Uso do `while` para criar loops controlados por condição.
-- Uso do `for` para repetições com contadores.
-- Iteração sobre listas de dados.
-
-### 🔹 Entrada de Dados com Scanner
-- Utilização da classe `Scanner` para receber dados do usuário.
-- Leitura de diferentes tipos (`nextInt`, `nextDouble`, `nextLine`).
-- Exercícios práticos: cadastro simples, calculadora e verificadores.
-
----
-
-## 🚀 Objetivos
-- Aprender a **base da programação em Java**.
-- Desenvolver raciocínio lógico aplicando condicionais e laços.
-- Praticar entrada e saída de dados.
-- Preparar terreno para conceitos intermediários como **POO**.
-
----
-
-## 📂 Estrutura dos Arquivos
-- `Variaveis.java` → Exemplos de variáveis.
-- `Condicionais.java` → Exercícios com if/else.
-- `Loops.java` → Estruturas de repetição.
-- `ScannerExemplos.java` → Exercícios com entrada de dados.
-
----
-
-## 📸 Demonstrações
-> Exemplos de execução no console com prints dos exercícios (adicionar imagens ou GIFs aqui).
-
----
+### 3️⃣ Jogo de Adivinhação (`DesafioCinco.java`)
+Um jogo interativo em que o usuário deve adivinhar um número secreto aleatório entre 1 e 100:
+- O programa dá dicas se o número secreto é **maior ou menor**
+- Informa quantas tentativas foram necessárias para acertar
 
 ## 🛠️ Tecnologias Utilizadas
-- **Java 17+**
-- **IntelliJ IDEA** como IDE
-- **Git/GitHub** para versionamento
+- Java 17+
+- Scanner (entrada de dados do usuário)
+- Random (geração de números aleatórios)
+- Estruturas condicionais e loops
+
+## 🎯 Objetivo
+Esses exercícios têm como objetivo fixar:
+- Entrada e saída de dados
+- Estruturas condicionais (`if`, `else if`, `else`)
+- Estruturas de repetição (`do-while`)
+- Validação de dados
+- Uso de classes utilitárias (`Scanner`, `Random`)
 
 ---
 
-## 🔮 Próximos Passos
-- Aprofundar em **Programação Orientada a Objetos (POO)**.
-- Estudar **encapsulamento, herança e polimorfismo**.
-- Trabalhar com **coleções e listas (ArrayList, HashMap, etc.)**.
+✍️ Desenvolvido por **Kauã Costa** durante seus estudos em Java.
